@@ -4,7 +4,7 @@ import ConferenceEvent from "./ConferenceEvent";
 import AboutUs from "./AboutUs";
 
 function App() {
-  const [showVenue, setShowVenue] = useState(true);
+  const [showVenue, setShowVenue] = useState(false);
 
   const handleGetStarted = () => {
     setShowVenue(true);
